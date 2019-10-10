@@ -1,0 +1,18 @@
+#progress {
+    width: 200px;
+    height: 10px;
+    /*display: none;*/
+    margin: 20px 0px 0px 0px;
+}
+
+#upimg {
+    width: 0%;
+    height: 100%;
+    /*display: none*/
+}
+@keyframes warn{
+    0%{opacity:0;}
+    10%{opacity: 1;}
+    75%{opacity:1;}
+    100%{opacity:0;}
+}
