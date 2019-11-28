@@ -170,7 +170,7 @@ if (!empty($_COOKIE['uid']) and !empty($_COOKIE['pswd'])) {
         echo "successing('" . $_GET["success"] . "')";
     }
     if (!empty($_GET['error'])) {
-        echo "successing('" . $_GET["error"] . "')";
+        echo "erroring('" . $_GET["error"] . "')";
     }
     ?>
 </script>
